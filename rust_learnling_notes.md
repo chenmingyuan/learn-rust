@@ -1,6 +1,7 @@
-Learn Rust by Building Real Applications
+# Learn Rust by Building Real Applications
 
 网站：https://www.udemy.com/course/rust-fundamentals/
+
 作者：Lyubomir Gavadinov
 
 https://www.koudaizy.com/tutorials/rust-fundamentals/
@@ -15,10 +16,13 @@ Rust is a modern systems programming language.
 doc.rust-lang.org/book/#the-rust-programming-language
 
 `cargo install cargo-expand`
+
 `cargo expand`
 
 `rustup toolchain list`
+
 `rustup toolchain install nightly-x86_64-unknown=linux=gnu`
+
 `rustup toolchain install stable-aarch64-apple-darwin`
 
 Memory Management
@@ -31,7 +35,14 @@ What is the stack: It's a special region of the process memory that stores varia
 
 What is the heap: It's a region of the process memory that is NOT automatically managed.
 
-# 所有权
+
+
+----
+
+# Rust权威指南
+
+
+## 所有权
 
 所有权及其相关功能：借用、切片，以及Rust在内存中布局数据的方式
 
@@ -57,3 +68,27 @@ Copy trait
 Drop trait
 
 所有权与函数：将值传递给函数在语义上类似于对变量进行赋值。
+
+将一个值赋值给另一个变量时就会转移所有权。
+可以利用元组来返回多个值
+
+引用和借用
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
