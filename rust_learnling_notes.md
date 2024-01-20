@@ -39,7 +39,39 @@ What is the heap: It's a region of the process memory that is NOT automatically 
 
 ----
 
-# Rust权威指南
+# Rust权威指南 The Rust Programming Language
+
+## 第 1 章 入门指南
+
+Cargo是Rust工具链中内置的构建系统及包管理器。
+### 使用cargo
+`cargo new xx_xx`
+`cargo run`
+`cargo build`
+`cargo check`
+
+cargo使用TOML(Tom's Obvious, Minimal Language)作为标准的配置格式。
+
+从Git检出代码、将当前目录移动到该项目的目录下及执行构建操作。
+```bash
+git clone someurl.com/someproject
+cd someproject
+cargo build
+```
+
+## 第 2 章 编写一个猜数游戏
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## 所有权
